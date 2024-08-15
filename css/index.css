@@ -1,0 +1,149 @@
+/* Atur font size dasar */
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 15px;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+}
+
+aside {
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #f3c8c8;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    aside {
+        width: calc(50% - 30px);
+    }
+}
+
+section {
+    margin: 2px;
+    padding: 4px;
+}
+
+p {
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+
+form {
+    background-color: #a2b7fa;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 0.875rem;
+}
+
+div {
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+
+input[type=number] {
+    width: 100%;
+    max-width: 300px;
+    height: 24px;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    padding: 0 8px;
+}
+
+.hasil-bmi {
+    padding: 15px;
+    background-color: #283663;
+    border-radius: 12px;
+    color: #f0f3fe;
+    text-align: center;
+}
+
+.button {
+    font-size: 0.875rem;
+    color: #f0f3fe;
+    border-radius: 4px;
+    padding: 12px;
+    margin: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+.bg-blue {
+    background-color: #283663;
+}
+
+.bg-red {
+    background-color: rgb(214, 45, 45);
+}
+
+.consult {
+    font-size: 0.875rem;
+    border-radius: 4px;
+    padding: 12px;
+    margin: 4px;
+    cursor: pointer;
+    background-color: #283663;
+    color: #f0f3fe;
+    border: none;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 480px) {
+    .buttons {
+        flex-direction: column;
+    }
+    
+    .button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Responsivitas tambahan */
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 12px;
+    }
+}
