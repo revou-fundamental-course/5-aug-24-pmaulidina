@@ -1,8 +1,9 @@
-/* Atur font size dasar */
+/* Mengatur ukuran dasar font*/
 html {
     font-size: 16px;
 }
 
+/* Mengatur jenis font, tinggi baris body, ukuran margin dan padding*/
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
@@ -10,27 +11,32 @@ body {
     padding: 0;
 }
 
+/*Mengatur lebar maksimum container, margin, dan padding*/
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1rem;
 }
 
+/*Mengatur ukuran font header 1 dan memusatkan heading*/
 h1 {
     font-size: 2rem;
     text-align: center;
 }
 
+/*Mengatur ukuran margin dan mengatur ukuran font*/
 h3 {
     margin: 0;
     font-size: 1.2rem;
 }
 
+/*Mengatur elemen dalam main dan memberi jarak*/
 main {
     display: flex;
     gap: 20px;
 }
 
+/*Mengatur aside secara umum*/
 aside {
     margin: 15px 0;
     padding: 20px;
@@ -45,16 +51,19 @@ aside {
     }
 }
 
+/*Pengaturan section*/
 section {
     margin: 2px;
     padding: 4px;
 }
 
+/*Pengaturan paragraf*/
 p {
     font-size: 0.875rem;
     font-weight: bold;
 }
 
+/*Pengaturan form*/
 form {
     background-color: #a2b7fa;
     padding: 15px;
@@ -62,11 +71,13 @@ form {
     font-size: 0.875rem;
 }
 
+/*Pengaturan elemen div*/
 div {
     font-size: 0.875rem;
     font-weight: bold;
 }
 
+/*Pengaturan inputan dengan tipe number*/
 input[type=number] {
     width: 100%;
     max-width: 300px;
@@ -76,6 +87,7 @@ input[type=number] {
     padding: 0 8px;
 }
 
+/*Pengaturan hasil BMI*/
 .hasil-bmi {
     padding: 15px;
     background-color: #283663;
@@ -84,6 +96,7 @@ input[type=number] {
     text-align: center;
 }
 
+/*Pengaturan button*/
 .button {
     font-size: 0.875rem;
     color: #f0f3fe;
@@ -94,14 +107,17 @@ input[type=number] {
     border: none;
 }
 
+/*Pengaturan background button*/
 .bg-blue {
     background-color: #283663;
 }
 
+/*Pengaturan background button*/
 .bg-red {
     background-color: rgb(214, 45, 45);
 }
 
+/*Pengaturan button consult*/
 .consult {
     font-size: 0.875rem;
     border-radius: 4px;
